@@ -1,1 +1,0 @@
-# rccg_project
