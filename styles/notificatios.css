@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: montserrat;
+  background-image: url("files/images/Crossbackground.png");
+  background: linear-gradient(
+    90deg,
+    rgba(17, 9, 48, 1) 31%,
+    rgba(212, 8, 111, 1) 100%
+  );
+  font-family: montserrat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  padding: 60px 120px 0 60px;
+  color: #fff;
+  height: max-content;
+}
+
+.page-identifier {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.heading-texts {
+  color: #fff;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchIcon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.searchIcon:hover {
+  height: 32px;
+  width: 32px;
+}
+
+.update {
+  width: 90%;
+  background-color: rgba(0, 172, 238, 1);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  height: 80px;
+  padding: 4px;
+}
+
+.inner-wrapper {
+  background-color: rgba(217, 217, 217, 1);
+  padding: 5px 10px;
+  color: #000;
+  border-radius: 5px;
+}
+
+.leftW {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.left-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 28px;
+  /* padding: 0 10px; */
+}
+
+/* styles the littlr p tage */
+.excerpt {
+  margin: 0;
+  font-size: 15px;
+}
+
+.update-container {
+  height: 95px;
+  border-bottom: 0.5px solid grey;
+  margin-bottom: 10px;
+}
